@@ -1,11 +1,6 @@
 import java.util.*; import static java.lang.System.*; import static java.util.stream.IntStream.*;
 class Main extends Lib {
   void solve() {
-    int n = _Int();
-    for (int i : until(n)) {
-      String s = _Next();
-      println(s);
-    }
   }
 }
 class Lib {
